@@ -14,7 +14,7 @@ If there is a project in `.net`, `postgres`, `aws`, or `go`, that you need help 
 
 ## 📫 How to reach me:
 You can reach me via:
-- [email](ali.khakpouri@gmail.com)
+- [email](mailto:ali.khakpouri@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/ali-khakpouri-4801558/)
 - [Stackoverflow](https://stackoverflow.com/users/1932324/ali-khakpouri)
 
