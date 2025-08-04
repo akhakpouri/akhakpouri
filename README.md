@@ -17,7 +17,7 @@ Having worked with `async` programming in `c#`, I am quiet familiar with concurr
 
 I'd also love to learn more about go's package management solution. In my opinion, `nuget` is overblown, and over-engineered.
 
-## 👯 I’m looking to collaborate on
+## :sun_with_face: I’m looking to collaborate on
 If there is a project in `.net`, `postgres`, `aws`, or `go`, that you need help with; please don't hesitate to reach out to me.
 
 ## 📫 How to reach me:
