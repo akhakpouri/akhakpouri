@@ -1,42 +1,60 @@
-## Hi there 👋
+## Hi there 👋 I'm Ali
 
-My name is **ali** and I'm a devoted software engineer with more than 20 years of expierience.
+A software engineer who's been shipping production code for **20+ years** — most of it deep in the `.NET` ecosystem — and who still gets a genuine kick out of the moment a gnarly problem finally clicks into place.
 
-## 🔭 I’m currently working on
+These days I'm pouring two decades of C# muscle memory into a deliberate pivot toward **Go** and **AI-assisted engineering**. Turns out clean architecture, SOLID, and a healthy respect for the transaction boundary translate across languages just fine. 🙂
 
-In my professional career, I've traveled across paradigm universes using languages such as: `c#`, `t/pl/sql`, `javascript`, `typescript`, etc, to mention a few. 
+### 🛠️ My toolbox
 
-I've also worked with different tools & frameworks like `.net`, `rabbitmq`, `docker`, `kubernetes`, etc, to name a few.
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-I'd love to continue the exploration of these tools, frameworks, and paradigms, to enhance my skillsets.
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 
-## 🌱 I’m currently learning
-In my spare time, I'm exploring new languages such as `go` to expand my horizon.
+### 🔭 What I'm building
 
-Having worked with `async` programming in `c#`, I am quiet familiar with concurrent exectution &amp; blocking threads; however, in `.net`; you have to make sure you understand blocking calls to use `async` and `await` correctly. I really want to learn how **goroutines** have been able to solve this problem.
+I don't learn languages from tutorials — I learn them by building things that would actually break in production if I got them wrong:
 
-I'd also love to learn more about go's package management solution. In my opinion, `nuget` is overblown, and over-engineered.
+- **An event-driven commerce backbone in Go** — a transactional outbox on PostgreSQL, SNS/SQS fan-out, and horizontally-scalable relay workers using locks and worker pools. At-least-once delivery, idempotent consumers, the whole dance.
+- **[`gorm-kit`](https://github.com/akhakpouri/gorm-kit)** — a small, driver-agnostic Go module I extracted and published to tame database connection & migration boilerplate across services.
+- **Infrastructure as code** — it all runs on AWS ECS Fargate, provisioned with Terraform and OIDC-secured CI/CD (no long-lived keys, thank you).
 
-## :sun_with_face: I’m looking to collaborate on
-If there is a project in `.net`, `postgres`, `aws`, or `go`, that you need help with; please don't hesitate to reach out to me.
+Every real decision gets an ADR. Yes, even on personal projects. Old habits. 📓
 
-## 📫 How to reach me:
-You can reach me via:
-- [email](mailto:ali.khakpouri@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/ali-khakpouri-4801558/)
-- [Stackoverflow](https://stackoverflow.com/users/1932324/ali-khakpouri)
+### 🌱 The Go rabbit holes I'm currently down
 
-<!--
-**akhakpouri/akhakpouri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Coming from `async`/`await` in C#, I *thought* I understood concurrency — then I met **goroutines** and channels and realized how much ceremony I'd been quietly carrying around. Letting a worker pool coordinate over a channel, instead of babysitting `Task` continuations and worrying about which call secretly blocks, has been one of those "oh — *that's* how it should feel" moments.
 
-Here are some ideas to get you started:
+Also, an opinion I'll happily defend: after years of `nuget`, Go's "the import path *is* the dependency" model feels refreshingly un-over-engineered. Fight me — politely, in an issue. 😄
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📊 A little GitHub telemetry
+
+<div align="center">
+
+![Ali's GitHub stats](https://github-readme-stats.vercel.app/api?username=akhakpouri&show_icons=true&count_private=true&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=akhakpouri&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=akhakpouri&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+
+</div>
+
+### ☀️ Let's build something
+
+If you've got a project in `go`, `.net`, `postgres`, or `aws` and could use a hand — or you just want to argue about package managers — don't hesitate to reach out.
+
+### 📫 Where to find me
+
+- 📧 [Email](mailto:ali.khakpouri@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/ali-khakpouri-4801558/)
+- 🧠 [Stack Overflow](https://stackoverflow.com/users/1932324/ali-khakpouri)
+
+⚡ **Fun fact:** I've been writing software for longer than Go has been a language — and I still learn something new just about every week. That's the whole point.
